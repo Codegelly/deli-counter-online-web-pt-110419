@@ -1,13 +1,13 @@
 def line (array)
   if array.length == 0
-  puts ("The line is currently empty.") 
-else
-line = "The line is currently:"
+    puts ("The line is currently empty.") 
+  else
+    line = "The line is currently:"
 array.each_with_index do
   |names,index|
   line << " #{index+1}. #{names}"
 end   
-puts line 
+  puts line 
 end 
 end
 
