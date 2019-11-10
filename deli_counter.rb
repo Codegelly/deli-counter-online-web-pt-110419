@@ -20,6 +20,6 @@ def take_a_number(katz_deli, name)
      |katz_deli, name|
      katz_deli << " Welcome, #{name}. You are number #{katz_deli.length} in line."
 end 
-puts katz_deli.index 
+puts katz_deli
 end 
 end 
